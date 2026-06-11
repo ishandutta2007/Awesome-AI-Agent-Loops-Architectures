@@ -136,3 +136,6 @@ Deploying an autonomous agent loop introduces structural risks like infinite exe
 * **Hard Iteration Caps**: Enforce a maximum runtime loop depth (typically `max_iterations=10` or `20`) to catch logic errors before running away.
 * **Repetition Monitors**: Track identical consecutive tool calls. If an agent requests `get_weather("Tokyo")` three times sequentially without changing its parameters, forcefully terminate the task state.
 * **Graceful Degradation**: If an agent exhausts its step allocation without firing a final response payload, configure a fallback parser to synthesize a partial response from its accumulated memory history.
+
+
+[![Watch the video](https://img.youtube.com/vi/WGzof1nK7hc/0.jpg)](https://www.youtube.com/watch?v=WGzof1nK7hc)
