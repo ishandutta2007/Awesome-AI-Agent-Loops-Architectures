@@ -1,0 +1,46 @@
+<svg width="400" height="400" viewBox="0 0 400 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Central Hub -->
+  <circle cx="200" cy="200" r="40" fill="#4ECCA3" fill-opacity="0.2" stroke="#4ECCA3" stroke-width="2">
+    <animate attributeName="r" values="35;45;35" dur="3s" repeatCount="indefinite" />
+  </circle>
+  <text x="200" y="205" font-family="Arial, sans-serif" font-size="12" fill="#EEEEEE" text-anchor="middle" font-weight="bold">AGENT</text>
+
+  <!-- Nodes -->
+  <!-- Think -->
+  <g id="think-node">
+    <rect x="160" y="40" width="80" height="40" rx="5" fill="#16213E" stroke="#4ECCA3" stroke-width="2" />
+    <text x="200" y="65" font-family="Arial, sans-serif" font-size="12" fill="#EEEEEE" text-anchor="middle">THINK</text>
+  </g>
+
+  <!-- Act -->
+  <g id="act-node">
+    <rect x="310" y="180" width="80" height="40" rx="5" fill="#16213E" stroke="#4ECCA3" stroke-width="2" />
+    <text x="350" y="205" font-family="Arial, sans-serif" font-size="12" fill="#EEEEEE" text-anchor="middle">ACT</text>
+  </g>
+
+  <!-- Observe -->
+  <g id="observe-node">
+    <rect x="160" y="320" width="80" height="40" rx="5" fill="#16213E" stroke="#4ECCA3" stroke-width="2" />
+    <text x="200" y="345" font-family="Arial, sans-serif" font-size="12" fill="#EEEEEE" text-anchor="middle">OBSERVE</text>
+  </g>
+
+  <!-- Answer -->
+  <g id="answer-node">
+    <rect x="10" y="180" width="80" height="40" rx="5" fill="#4ECCA3" stroke="#16213E" stroke-width="2" />
+    <text x="50" y="205" font-family="Arial, sans-serif" font-size="12" fill="#16213E" text-anchor="middle" font-weight="bold">ANSWER</text>
+  </g>
+
+  <!-- Connecting Lines with Pulse -->
+  <path d="M200 80 V160" stroke="#4ECCA3" stroke-width="2" stroke-dasharray="5,5">
+    <animate attributeName="stroke-dashoffset" from="20" to="0" dur="1s" repeatCount="indefinite" />
+  </path>
+  <path d="M240 200 H310" stroke="#4ECCA3" stroke-width="2" stroke-dasharray="5,5">
+    <animate attributeName="stroke-dashoffset" from="20" to="0" dur="1s" repeatCount="indefinite" />
+  </path>
+  <path d="M350 220 V320" stroke="#4ECCA3" stroke-width="2" stroke-dasharray="5,5">
+    <animate attributeName="stroke-dashoffset" from="20" to="0" dur="1s" repeatCount="indefinite" />
+  </path>
+  <path d="M160 340 H50 V220" stroke="#4ECCA3" stroke-width="2" stroke-dasharray="5,5" fill="none">
+    <animate attributeName="stroke-dashoffset" from="20" to="0" dur="1s" repeatCount="indefinite" />
+  </path>
+</svg>

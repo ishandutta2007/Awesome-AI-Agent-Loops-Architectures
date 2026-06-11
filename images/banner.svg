@@ -1,0 +1,30 @@
+<svg width="800" height="200" viewBox="0 0 800 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="200" rx="10" fill="url(#paint0_linear)"/>
+  <defs>
+    <linearGradient id="paint0_linear" x1="0" y1="0" x2="800" y2="200" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1A1A2E"/>
+      <stop offset="1" stop-color="#16213E"/>
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="5" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+  
+  <!-- Circuit lines background -->
+  <path d="M0 50H100L150 0M800 150H700L650 200M0 150H50L100 200M800 50H750L700 0" stroke="#4ECCA3" stroke-opacity="0.2" stroke-width="2"/>
+  
+  <!-- Text -->
+  <text x="400" y="100" font-family="Arial, sans-serif" font-size="42" font-weight="bold" fill="#4ECCA3" text-anchor="middle" filter="url(#glow)">
+    AWESOME AI AGENT LOOPS
+  </text>
+  <text x="400" y="140" font-family="Arial, sans-serif" font-size="18" fill="#EEEEEE" text-anchor="middle">
+    Architectures & Patterns for Autonomous LLMs
+  </text>
+  
+  <!-- Loop Icon -->
+  <path d="M370 160 Q400 190 430 160" stroke="#4ECCA3" stroke-width="3" fill="none" stroke-linecap="round">
+    <animate attributeName="stroke-dasharray" from="0, 50" to="50, 0" dur="2s" repeatCount="indefinite" />
+  </path>
+  <path d="M430 160 L420 155 M430 160 L425 170" stroke="#4ECCA3" stroke-width="3" stroke-linecap="round" />
+</svg>
