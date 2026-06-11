@@ -1,5 +1,5 @@
 <div align="center">
-  ![Awesome AI Agent Loops Banner](images/banner.svg)
+  <img src="./images/banner.svg" alt="Awesome AI Agent Loops Banner" width="800">
 
   # 🤖 Awesome AI Agent Loops & Architecture Patterns 🔄
 
