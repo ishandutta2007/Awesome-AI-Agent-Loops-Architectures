@@ -8,8 +8,29 @@ An **AI Agent Loop** is an iterative architectural pattern where a Large Languag
 
 The foundational loop is built on the **Reasoning and Acting (ReAct)** pattern, which handles task execution in four distinct, repeating stages:
 
-[ Input / Goal ]│▼┌───────────┐│ 1. THINK  │ ◄──────────────────────────┐└─────┬─────┘                            ││ (Decides on a tool)              │▼                                  │┌───────────┐                            │ (Loop repeats│  2. ACT   │                            │  until complete)└─────┬─────┘                            ││ (Executes API/Function call)     │▼                                  │┌───────────┐                            ││3. OBSERVE │ ───────────────────────────┘└─────┬─────┘│ (Task criteria met)▼┌───────────┐│ 4. ANSWER │└───────────┘
-
+```
+  [ Input / Goal ]
+         │
+         ▼
+   ┌───────────┐
+   │ 1. THINK  │ ◄──────────────────────────┐
+   └─────┬─────┘                            │
+         │ (Decides on a tool)              │
+         ▼                                  │
+   ┌───────────┐                            │ (Loop repeats
+   │  2. ACT   │                            │  until complete)
+   └─────┬─────┘                            │
+         │ (Executes API/Function call)     │
+         ▼                                  │
+   ┌───────────┐                            │
+   │3. OBSERVE │ ───────────────────────────┘
+   └─────┬─────┘
+         │ (Task criteria met)
+         ▼
+   ┌───────────┐
+   │ 4. ANSWER │
+   └───────────┘
+```
 
 1. **Think**: The LLM evaluates the user request and determines what data or action it lacks.
 2. **Act**: The model generates a specific tool call argument to fetch data or modify an external state.
