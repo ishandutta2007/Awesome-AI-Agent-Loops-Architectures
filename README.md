@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="./images/banner.svg" alt="Awesome AI Agent Loops Banner" width="800">
+  <img src="images/header.svg" alt="Awesome AI Agent Loops Header" width="100%">
 
   # 🤖 Awesome AI Agent Loops & Architecture Patterns 🔄
 

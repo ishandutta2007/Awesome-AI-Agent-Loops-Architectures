@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="200">
+  <rect width="800" height="200" rx="10" fill="#1A1A2E"/>
+  <text x="400" y="100" font-family="Arial, sans-serif" font-size="40" font-weight="bold" fill="#4ECCA3" text-anchor="middle" dominant-baseline="middle">AWESOME AI AGENT LOOPS</text>
+  <text x="400" y="150" font-family="Arial, sans-serif" font-size="18" fill="#EEEEEE" text-anchor="middle">Architectures &amp; Patterns for Autonomous LLMs</text>
+</svg>
