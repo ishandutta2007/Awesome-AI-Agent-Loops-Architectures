@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="images/banner.svg" alt="Awesome AI Agent Loops Banner" width="800">
+  ![Awesome AI Agent Loops Banner](images/banner.svg)
 
   # 🤖 Awesome AI Agent Loops & Architecture Patterns 🔄
 
@@ -26,7 +26,7 @@ Instead of relying on a human to manually provide the next prompt, the system au
 The foundational loop is built on the **Reasoning and Acting (ReAct)** pattern, which handles task execution in four distinct, repeating stages:
 
 <div align="center">
-  <img src="images/loop-animation.svg" alt="ReAct Loop Animation" width="400">
+  ![ReAct Loop Animation](images/loop-animation.svg)
 </div>
 
 1.  **🧠 Think**: The LLM evaluates the user request and determines what data or action it lacks.
